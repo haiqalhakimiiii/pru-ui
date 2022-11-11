@@ -26,11 +26,12 @@ html {
 }
 
 .paper {
-	width: 400px;
+	width: 350px;
 	padding: 30px;
 	background: #fff;
 	box-shadow: 0 10px 32px rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
+	
 }
 
 .header-title {
@@ -44,18 +45,19 @@ html {
 }
 
 .radio-container {
-	display: flex;
+	display: inline-grid;
 	flex-direction: column;
-	gap: 20px;
+	gap: 30px;
 	padding: 20px 0;
 }
 
 .lbl-radio {
 	display: block;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
-	padding: 15px;
-	padding-left: 50px;
+	border-radius: 20px;
+	padding: 30px;
+	padding-left: 60px;
+	
 	position: relative;
 	cursor: pointer;
 }
