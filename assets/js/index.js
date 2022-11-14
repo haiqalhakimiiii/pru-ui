@@ -52,6 +52,3 @@ function endDisplay(){
    }
    third.style.display = "none"
 }
-
-// Go to next page
-document.getElementById("mulakan").onclick = () => {location.href = "state.html"}
