@@ -42,7 +42,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -508,6 +508,10 @@ section {
 .section-bg {
   background: #f5f8fd;
 }
+.section-bg-state-finish{
+   background: #f5f8fd;
+   height: 89vh;
+}
 
 /* About Us Section
 --------------------------------*/
@@ -594,7 +598,7 @@ section {
 }
 
 #services .box {
-  padding: 30px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -625,7 +629,6 @@ section {
 
 #services .title {
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
