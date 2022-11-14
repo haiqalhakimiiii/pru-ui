@@ -140,19 +140,15 @@
                            <div class="card border-0 shadow rounded-3">
                               <div class="card-body p-4 p-sm-5">
                                 <form action="state.html">
-                                  <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" name="phone" placeholder="0123456789">
-                                    <label for="floatingInput">No. Telefon</label>
-                                  </div>
-                                  <div class="d-grid">
-                                    <!-- Button not set to submit yet -->
-                                    <!-- After save the contact information, go to state page -->
-                                      <button id="mulakan" class="btn-get-started mt-2 mb-2">Mulakan</button>
+                                 <div class="d-grid mb-2">
+                                    <button class="btn btn-google text-uppercase fw-bold" type="submit">
+                                      <i class="bi bi-google me-2"></i> Teruskan dengan Google
+                                    </button>
                                   </div>
                                   <hr class="my-4">
                                   <div class="d-grid mb-2">
-                                    <button class="btn btn-google text-uppercase fw-bold" type="submit">
-                                      <i class="fab fa-google me-2"></i> Teruskan dengan Google
+                                    <button class="btn btn-facebook text-uppercase fw-bold" type="submit">
+                                      <i class="bi bi-facebook me-2"></i> Teruskan dengan Facebook
                                     </button>
                                   </div>
                                 </form>
@@ -243,6 +239,10 @@
 
    .btn-google{
       background-color: red;
+      color: white;
+   }
+   .btn-facebook{
+      background-color: blue;
       color: white;
    }
 </style>
