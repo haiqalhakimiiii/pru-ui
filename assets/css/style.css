@@ -1619,3 +1619,40 @@ section {
 #footer .credits a:hover {
   color: #0a98c0;
 }
+
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #1bb1dc;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: rgb(254, 254, 254);
+  color: black;
+  border-style: solid;
+  border-color: rgb(191, 191, 191);
+  
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
